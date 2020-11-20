@@ -1,0 +1,38 @@
+/* Carousel 100% Fullscreen */
+html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+    }
+    .carousel, .item, .active {
+    height:100%;
+    }
+    .carousel-inner {
+    height:100%;
+    }
+    .carousel {
+    margin-bottom: 60px;
+    }
+    .carousel-caption {
+    z-index: 10;
+    }
+    .carousel .item {
+    background-color: #777;
+    }
+    .carousel .carousel-inner .bg {
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+    .carousel .carousel-inner .bg1 {
+    background-image:url('https://www.pexels.com/photo/light-landscape-nature-red-33041/');
+    background-position: center top;
+    }
+    .carousel .carousel-inner .bg2 {
+    background-image:url('https://www.pexels.com/photo/man-standing-on-cliff-watching-punch-bowl-waterfalls-1402850/');
+    background-position: center center;
+    }
+    .carousel .carousel-inner .bg3 {
+    background-image:url('https://www.pexels.com/photo/photo-of-stream-during-daytime-3225517/');
+    background-position: center bottom;
+    }
+    
